@@ -489,6 +489,72 @@ const mergedHistory = [
     )
   );
 
+  let nextDate;
+
+if(
+  fs.existsSync(
+    OUTPUT_FILE
+  )
+){
+
+  try{
+
+    const oldData =
+      JSON.parse(
+        fs.readFileSync(
+          OUTPUT_FILE,
+          "utf8"
+        )
+      );
+
+    if(
+      oldData.updatedAt
+    ){
+
+      const parts =
+        oldData.updatedAt
+        .split("-");
+
+      const d =
+        new Date(
+          Number(parts[0]),
+          Number(parts[1]) - 1,
+          Number(parts[2])
+        );
+
+      d.setDate(
+        d.getDate() + 1
+      );
+
+      nextDate =
+        `${d.getFullYear()}-${
+          String(
+            d.getMonth() + 1
+          ).padStart(2,"0")
+        }-${
+          String(
+            d.getDate()
+          ).padStart(2,"0")
+        }`;
+
+    }
+
+  }catch{}
+
+}
+
+if(
+  !nextDate
+){
+
+  nextDate =
+    new Date()
+    .toISOString()
+    .split("T")[0];
+
+}
+
+
 const result = {
 
   success:true,
