@@ -489,25 +489,27 @@ const mergedHistory = [
     )
   );
 
-  const result = {
+const result = {
 
-    success:true,
+  success:true,
 
-    updatedAt:
-      new Date()
-      .toISOString(),
+  updatedAt:
+    new Date()
+    .toISOString()
+    .split("T")[0],
 
-    countries:
-      PLAYLISTS.length,
+  countries:
+    PLAYLISTS.length,
 
-    songs:
-      songs.sort(
-        (a,b)=>
-        a.rank-b.rank
-      )
+  songs:
+    songs.sort(
+      (a,b)=>
+      a.rank-b.rank
+    )
 
-  };
+};
 
+  
   fs.writeFileSync(
     OUTPUT_FILE,
     JSON.stringify(
