@@ -493,10 +493,9 @@ const result = {
 
   success:true,
 
-  updatedAt:
-    new Date()
-    .toISOString()
-    .split("T")[0],
+ updatedAt:
+  nextDate,
+
 
   countries:
     PLAYLISTS.length,
