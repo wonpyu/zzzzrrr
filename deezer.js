@@ -41,7 +41,7 @@ function isTargetArtist(name){
   return (
     artist.includes("jimin")
     ||
-    artist === "bts"
+    artist === "Jimin"
   );
 
 }
