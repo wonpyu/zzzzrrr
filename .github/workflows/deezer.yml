@@ -4,8 +4,6 @@ on:
 workflow_dispatch:
 
 repository_dispatch:
-types:
-- update-deezer-chart
 
 permissions:
 contents: write
