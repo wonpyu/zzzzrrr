@@ -284,7 +284,7 @@ async function buildDeezerChart(){
 
   }
 
-  const BATCH_SIZE = 5;
+  const BATCH_SIZE = 2;
 
   for(
     let i = 0;
