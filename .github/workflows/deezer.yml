@@ -1,39 +1,57 @@
-name: Deezer Chart
+name: Update Deezer Chart
 
 on:
   workflow_dispatch:
-  repository_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   update-deezer:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout Etalase (Public)
         uses: actions/checkout@v4
+
+      - name: Checkout Dapur (Private)
+        uses: actions/checkout@v4
+        with:
+          repository: wonypu/deezer-private # Pastikan repo Dapur-nya benar
+          path: deezer-private
+          token: ${{ secrets.PAT_DEEZER }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install Dependencies
-        run: |
-          npm install node-fetch@2
+      - name: Install dependencies
+        working-directory: deezer-private
+        run: npm install
 
-      - name: Run Deezer Scraper
+      # Playwright tidak diperlukan untuk skrip ini, jadi kita skip/hapus langkah installnya
+
+      - name: Copy existing data from Etalase to Dapur
+        run: |
+          # Copy file JSON dari Etalase ke Dapur sebelum scraper jalan
+          cp *.json deezer-private/ || true
+
+      - name: Run Scraper
+        working-directory: deezer-private
         run: node deezer.js
 
-      - name: Commit Updates
+      - name: Move result to Etalase
+        run: |
+          # Copy hanya file hasil yang mau dipublikasikan
+          cp -f deezer-private/deezer-song.json .
+          cp -f deezer-private/deezer-history.json .
+          cp -f deezer-private/deezer-all-history.json .
+          cp -f deezer-private/deezer-global-history.json .
+
+      - name: Commit and Push to Etalase
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add .
-
-          git diff --staged --quiet || git commit -m "Update Deezer Chart"
-
+          git add *.json
+          git diff --staged --quiet || git commit -m "Update Deezer Chart API"
           git push
