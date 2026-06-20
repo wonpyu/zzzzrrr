@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Dapur (Private)
         uses: actions/checkout@v4
         with:
-          repository: wonypu/deezer-private # Pastikan repo Dapur-nya benar
+          repository: wonpyu/deezer-private # Pastikan repo Dapur-nya benar
           path: deezer-private
           token: ${{ secrets.PAT_DEEZER }}
 
