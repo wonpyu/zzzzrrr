@@ -1,24 +1,22 @@
-name: Update Deezer Chart
+name: Update Digital Artists
 
 on:
   workflow_dispatch:
 
 jobs:
-  update-deezer:
+  update-artists:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
     steps:
-      - name: Checkout Etalase (Public)
+      - name: Checkout public repo
         uses: actions/checkout@v4
 
-      - name: Checkout Dapur (Private)
-        uses: actions/checkout@v4
-        with:
-          repository: wonpyu/deezer-private # Pastikan repo Dapur-nya benar
-          path: deezer-private
-          token: ${{ secrets.PAT_DEEZER }}
+      - name: Clone private repo
+        run: |
+          git clone https://x-access-token:${{ secrets.PAT_ARTIST }}@github.com/wonpyu/digital-artist-private.git
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -26,32 +24,28 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        working-directory: deezer-private
+        working-directory: digital-artist-private
         run: npm install
 
-      # Playwright tidak diperlukan untuk skrip ini, jadi kita skip/hapus langkah installnya
-
-      - name: Copy existing data from Etalase to Dapur
-        run: |
-          # Copy file JSON dari Etalase ke Dapur sebelum scraper jalan
-          cp *.json deezer-private/ || true
+      - name: Install Playwright
+        working-directory: digital-artist-private
+        run: npx playwright install chromium --with-deps
 
       - name: Run Scraper
-        working-directory: deezer-private
-        run: node deezer.js
+        working-directory: digital-artist-private
+        run: node scrape.js
 
-      - name: Move result to Etalase
+      - name: Copy generated files
         run: |
-          # Copy hanya file hasil yang mau dipublikasikan
-          cp -f deezer-private/deezer-song.json .
-          cp -f deezer-private/deezer-history.json .
-          cp -f deezer-private/deezer-all-history.json .
-          cp -f deezer-private/deezer-global-history.json .
+          cp -f digital-artist-private/digital-artists.json . 2>/dev/null || true
 
-      - name: Commit and Push to Etalase
+      - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add *.json
-          git diff --staged --quiet || git commit -m "Update Deezer Chart API"
+
+          git add digital-artists.json
+
+          git diff --staged --quiet || git commit -m "update digital artists"
+
           git push
