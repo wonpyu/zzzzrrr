@@ -1,14 +1,14 @@
 {
   "success": true,
-  "updatedAt": "2026-07-11",
+  "updatedAt": "2026-07-12",
   "countries": 70,
   "songs": [
     {
       "country": "Japan",
-      "rank": 17,
-      "movement": "+13",
+      "rank": 7,
+      "movement": "+10",
       "peakRank": 1,
-      "appearances": 44,
+      "appearances": 45,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
