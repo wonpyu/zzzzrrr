@@ -1,14 +1,14 @@
 {
   "success": true,
-  "updatedAt": "2026-07-21",
+  "updatedAt": "2026-07-22",
   "countries": 70,
   "songs": [
     {
       "country": "Japan",
-      "rank": 64,
-      "movement": "-48",
+      "rank": 12,
+      "movement": "+52",
       "peakRank": 1,
-      "appearances": 54,
+      "appearances": 55,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -19,10 +19,10 @@
     },
     {
       "country": "Argentina",
-      "rank": 69,
-      "movement": "RE",
-      "peakRank": 69,
-      "appearances": 1,
+      "rank": 61,
+      "movement": "+8",
+      "peakRank": 61,
+      "appearances": 2,
       "track": "Smeraldo Garden Marching Band (feat. Loco)",
       "artist": "Jimin",
       "album": "MUSE",
@@ -30,6 +30,48 @@
       "deezerId": 2893833571,
       "playlistId": "1279119721",
       "link": "https://www.deezer.com/track/2893833571"
+    },
+    {
+      "country": "Japan",
+      "rank": 69,
+      "movement": "RE",
+      "peakRank": 69,
+      "appearances": 1,
+      "track": "Promise",
+      "artist": "Jimin",
+      "album": "約束",
+      "image": "https://cdn-images.dzcdn.net/images/cover/8729360793190669804ddeecee624ae2/250x250-000000-80-0-0.jpg",
+      "deezerId": 2173120327,
+      "playlistId": "1362508955",
+      "link": "https://www.deezer.com/track/2173120327"
+    },
+    {
+      "country": "Japan",
+      "rank": 70,
+      "movement": "RE",
+      "peakRank": 70,
+      "appearances": 1,
+      "track": "Set Me Free Pt.2",
+      "artist": "Jimin",
+      "album": "FACE",
+      "image": "https://cdn-images.dzcdn.net/images/cover/0d86d8f7a357c3c0f9b94b8fd3fde13c/250x250-000000-80-0-0.jpg",
+      "deezerId": 2199591697,
+      "playlistId": "1362508955",
+      "link": "https://www.deezer.com/track/2199591697"
+    },
+    {
+      "country": "Japan",
+      "rank": 73,
+      "movement": "RE",
+      "peakRank": 73,
+      "appearances": 1,
+      "track": "Smeraldo Garden Marching Band (feat. Loco)",
+      "artist": "Jimin",
+      "album": "Smeraldo Garden Marching Band (feat. Loco)",
+      "image": "https://cdn-images.dzcdn.net/images/cover/15755e94c94456c6a693768cc2ae30c3/250x250-000000-80-0-0.jpg",
+      "deezerId": 2861191952,
+      "playlistId": "1362508955",
+      "link": "https://www.deezer.com/track/2861191952"
     }
   ]
 }
