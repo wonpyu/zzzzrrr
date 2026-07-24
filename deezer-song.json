@@ -1,42 +1,28 @@
 {
   "success": true,
-  "updatedAt": "2026-07-23",
+  "updatedAt": "2026-07-24",
   "countries": 70,
   "songs": [
     {
-      "country": "Philippines",
-      "rank": 3,
+      "country": "Argentina",
+      "rank": 13,
       "movement": "RE",
-      "peakRank": 3,
+      "peakRank": 13,
       "appearances": 1,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
       "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
       "deezerId": 2893833601,
-      "playlistId": "1362518895",
+      "playlistId": "1279119721",
       "link": "https://www.deezer.com/track/2893833601"
     },
     {
-      "country": "Philippines",
-      "rank": 25,
-      "movement": "RE",
-      "peakRank": 25,
-      "appearances": 1,
-      "track": "Who (Acoustic Remix)",
-      "artist": "Jimin",
-      "album": "Who (Remixes)",
-      "image": "https://cdn-images.dzcdn.net/images/cover/30488f9ac4ea7f65cd50d9258df342f1/250x250-000000-80-0-0.jpg",
-      "deezerId": 2897231951,
-      "playlistId": "1362518895",
-      "link": "https://www.deezer.com/track/2897231951"
-    },
-    {
       "country": "Japan",
-      "rank": 30,
-      "movement": "-18",
+      "rank": 17,
+      "movement": "+13",
       "peakRank": 1,
-      "appearances": 56,
+      "appearances": 57,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -46,18 +32,32 @@
       "link": "https://www.deezer.com/track/2892682582"
     },
     {
-      "country": "Philippines",
-      "rank": 61,
+      "country": "Argentina",
+      "rank": 47,
       "movement": "RE",
-      "peakRank": 61,
+      "peakRank": 47,
       "appearances": 1,
-      "track": "Who (Rock Remix)",
+      "track": "Smeraldo Garden Marching Band (feat. Loco)",
       "artist": "Jimin",
-      "album": "Who (Remixes)",
-      "image": "https://cdn-images.dzcdn.net/images/cover/30488f9ac4ea7f65cd50d9258df342f1/250x250-000000-80-0-0.jpg",
-      "deezerId": 2897231961,
-      "playlistId": "1362518895",
-      "link": "https://www.deezer.com/track/2897231961"
+      "album": "MUSE",
+      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
+      "deezerId": 2893833571,
+      "playlistId": "1279119721",
+      "link": "https://www.deezer.com/track/2893833571"
+    },
+    {
+      "country": "Japan",
+      "rank": 60,
+      "movement": "RE",
+      "peakRank": 60,
+      "appearances": 1,
+      "track": "Like Crazy",
+      "artist": "Jimin",
+      "album": "FACE",
+      "image": "https://cdn-images.dzcdn.net/images/cover/0d86d8f7a357c3c0f9b94b8fd3fde13c/250x250-000000-80-0-0.jpg",
+      "deezerId": 2199591677,
+      "playlistId": "1362508955",
+      "link": "https://www.deezer.com/track/2199591677"
     }
   ]
 }
