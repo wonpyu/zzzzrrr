@@ -1,28 +1,14 @@
 {
   "success": true,
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-07-26",
   "countries": 70,
   "songs": [
     {
-      "country": "El Salvador",
-      "rank": 14,
-      "movement": "NE",
-      "peakRank": 14,
-      "appearances": 1,
-      "track": "Who",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-      "deezerId": 2893833601,
-      "playlistId": "1362523615",
-      "link": "https://www.deezer.com/track/2893833601"
-    },
-    {
       "country": "Japan",
-      "rank": 38,
-      "movement": "-21",
+      "rank": 67,
+      "movement": "-29",
       "peakRank": 1,
-      "appearances": 58,
+      "appearances": 59,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -32,18 +18,18 @@
       "link": "https://www.deezer.com/track/2892682582"
     },
     {
-      "country": "Israel",
-      "rank": 47,
-      "movement": "NE",
-      "peakRank": 47,
+      "country": "Argentina",
+      "rank": 95,
+      "movement": "RE",
+      "peakRank": 95,
       "appearances": 1,
-      "track": "Who",
+      "track": "Smeraldo Garden Marching Band (feat. Loco)",
       "artist": "Jimin",
       "album": "MUSE",
       "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-      "deezerId": 2893833601,
-      "playlistId": "1362507345",
-      "link": "https://www.deezer.com/track/2893833601"
+      "deezerId": 2893833571,
+      "playlistId": "1279119721",
+      "link": "https://www.deezer.com/track/2893833571"
     }
   ]
 }
