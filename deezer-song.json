@@ -1,14 +1,14 @@
 {
   "success": true,
-  "updatedAt": "2026-07-29",
+  "updatedAt": "2026-07-30",
   "countries": 70,
   "songs": [
     {
       "country": "Argentina",
-      "rank": 2,
-      "movement": "-1",
+      "rank": 1,
+      "movement": "+1",
       "peakRank": 1,
-      "appearances": 3,
+      "appearances": 4,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -19,10 +19,10 @@
     },
     {
       "country": "Argentina",
-      "rank": 3,
-      "movement": "RE",
-      "peakRank": 3,
-      "appearances": 1,
+      "rank": 2,
+      "movement": "+1",
+      "peakRank": 2,
+      "appearances": 2,
       "track": "Like Crazy",
       "artist": "Jimin",
       "album": "FACE",
@@ -32,11 +32,25 @@
       "link": "https://www.deezer.com/track/2203061907"
     },
     {
+      "country": "Hungary",
+      "rank": 11,
+      "movement": "RE",
+      "peakRank": 11,
+      "appearances": 1,
+      "track": "Who",
+      "artist": "Jimin",
+      "album": "MUSE",
+      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
+      "deezerId": 2893833601,
+      "playlistId": "1362506695",
+      "link": "https://www.deezer.com/track/2893833601"
+    },
+    {
       "country": "Japan",
-      "rank": 4,
-      "movement": "-1",
+      "rank": 21,
+      "movement": "-17",
       "peakRank": 1,
-      "appearances": 62,
+      "appearances": 63,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -44,6 +58,20 @@
       "deezerId": 2892682582,
       "playlistId": "1362508955",
       "link": "https://www.deezer.com/track/2892682582"
+    },
+    {
+      "country": "Chile",
+      "rank": 99,
+      "movement": "RE",
+      "peakRank": 99,
+      "appearances": 1,
+      "track": "Who",
+      "artist": "Jimin",
+      "album": "MUSE",
+      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
+      "deezerId": 2893833601,
+      "playlistId": "1279119121",
+      "link": "https://www.deezer.com/track/2893833601"
     }
   ]
 }
