@@ -1,10 +1,10 @@
 [
   {
     "country": "Argentina",
-    "rank": 4,
-    "movement": "-3",
+    "rank": 3,
+    "movement": "+1",
     "peakRank": 1,
-    "appearances": 5,
+    "appearances": 6,
     "track": "Who",
     "artist": "Jimin",
     "album": "MUSE",
@@ -15,10 +15,10 @@
   },
   {
     "country": "Argentina",
-    "rank": 8,
-    "movement": "-6",
+    "rank": 4,
+    "movement": "+4",
     "peakRank": 2,
-    "appearances": 3,
+    "appearances": 4,
     "track": "Like Crazy",
     "artist": "Jimin",
     "album": "FACE",
@@ -28,25 +28,11 @@
     "link": "https://www.deezer.com/track/2203061907"
   },
   {
-    "country": "Portugal",
-    "rank": 14,
-    "movement": "NE",
-    "peakRank": 14,
-    "appearances": 1,
-    "track": "Who",
-    "artist": "Jimin",
-    "album": "MUSE",
-    "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-    "deezerId": 2893833601,
-    "playlistId": "1362519755",
-    "link": "https://www.deezer.com/track/2893833601"
-  },
-  {
     "country": "Japan",
-    "rank": 32,
-    "movement": "-11",
+    "rank": 18,
+    "movement": "+14",
     "peakRank": 1,
-    "appearances": 64,
+    "appearances": 65,
     "track": "Who",
     "artist": "Jimin",
     "album": "MUSE",
@@ -54,19 +40,5 @@
     "deezerId": 2892682582,
     "playlistId": "1362508955",
     "link": "https://www.deezer.com/track/2892682582"
-  },
-  {
-    "country": "Argentina",
-    "rank": 69,
-    "movement": "RE",
-    "peakRank": 69,
-    "appearances": 1,
-    "track": "Smeraldo Garden Marching Band (feat. Loco)",
-    "artist": "Jimin",
-    "album": "MUSE",
-    "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-    "deezerId": 2893833571,
-    "playlistId": "1279119721",
-    "link": "https://www.deezer.com/track/2893833571"
   }
 ]
