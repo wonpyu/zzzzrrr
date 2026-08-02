@@ -1,14 +1,14 @@
 {
   "success": true,
-  "updatedAt": "2026-08-01",
+  "updatedAt": "2026-08-02",
   "countries": 70,
   "songs": [
     {
       "country": "Argentina",
       "rank": 3,
-      "movement": "+1",
+      "movement": "=",
       "peakRank": 1,
-      "appearances": 6,
+      "appearances": 7,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -20,9 +20,9 @@
     {
       "country": "Argentina",
       "rank": 4,
-      "movement": "+4",
+      "movement": "=",
       "peakRank": 2,
-      "appearances": 4,
+      "appearances": 5,
       "track": "Like Crazy",
       "artist": "Jimin",
       "album": "FACE",
@@ -33,10 +33,10 @@
     },
     {
       "country": "Japan",
-      "rank": 18,
-      "movement": "+14",
+      "rank": 68,
+      "movement": "-50",
       "peakRank": 1,
-      "appearances": 65,
+      "appearances": 66,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
