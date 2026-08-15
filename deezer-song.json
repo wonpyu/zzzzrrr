@@ -1,28 +1,14 @@
 {
   "success": true,
-  "updatedAt": "2026-08-14",
+  "updatedAt": "2026-08-15",
   "countries": 70,
   "songs": [
     {
-      "country": "Singapore",
-      "rank": 1,
-      "movement": "RE",
-      "peakRank": 1,
-      "appearances": 1,
-      "track": "Who",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-      "deezerId": 2893833601,
-      "playlistId": "1313620765",
-      "link": "https://www.deezer.com/track/2893833601"
-    },
-    {
       "country": "Argentina",
-      "rank": 3,
-      "movement": "-2",
+      "rank": 1,
+      "movement": "+2",
       "peakRank": 1,
-      "appearances": 19,
+      "appearances": 20,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -32,25 +18,11 @@
       "link": "https://www.deezer.com/track/2893833601"
     },
     {
-      "country": "Hungary",
-      "rank": 3,
-      "movement": "=",
-      "peakRank": 3,
-      "appearances": 2,
-      "track": "Who",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-      "deezerId": 2893833601,
-      "playlistId": "1362506695",
-      "link": "https://www.deezer.com/track/2893833601"
-    },
-    {
       "country": "Argentina",
-      "rank": 4,
-      "movement": "-1",
+      "rank": 3,
+      "movement": "+1",
       "peakRank": 2,
-      "appearances": 17,
+      "appearances": 18,
       "track": "Like Crazy",
       "artist": "Jimin",
       "album": "FACE",
@@ -61,10 +33,10 @@
     },
     {
       "country": "Japan",
-      "rank": 15,
-      "movement": "-14",
+      "rank": 24,
+      "movement": "-9",
       "peakRank": 1,
-      "appearances": 78,
+      "appearances": 79,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -72,34 +44,6 @@
       "deezerId": 2892682582,
       "playlistId": "1362508955",
       "link": "https://www.deezer.com/track/2892682582"
-    },
-    {
-      "country": "Saudi Arabia",
-      "rank": 24,
-      "movement": "NE",
-      "peakRank": 24,
-      "appearances": 1,
-      "track": "Colatrix (Matter Remix)",
-      "artist": "Jiminy Hop",
-      "album": "Colatrix (Matter Remix)",
-      "image": "https://cdn-images.dzcdn.net/images/cover/648090b13b9bd242024ff6026e8027c7/250x250-000000-80-0-0.jpg",
-      "deezerId": 2182413897,
-      "playlistId": "1362521285",
-      "link": "https://www.deezer.com/track/2182413897"
-    },
-    {
-      "country": "Ukraine",
-      "rank": 25,
-      "movement": "RE",
-      "peakRank": 25,
-      "appearances": 1,
-      "track": "Who",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-      "deezerId": 2893833601,
-      "playlistId": "1362526495",
-      "link": "https://www.deezer.com/track/2893833601"
     }
   ]
 }
