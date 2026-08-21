@@ -1,6 +1,6 @@
 {
   "success": true,
-  "updatedAt": "2026-08-20",
+  "updatedAt": "2026-08-21",
   "countries": 70,
   "songs": [
     {
@@ -8,7 +8,7 @@
       "rank": 2,
       "movement": "=",
       "peakRank": 1,
-      "appearances": 25,
+      "appearances": 26,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -19,10 +19,10 @@
     },
     {
       "country": "Argentina",
-      "rank": 6,
-      "movement": "-2",
+      "rank": 4,
+      "movement": "+2",
       "peakRank": 2,
-      "appearances": 23,
+      "appearances": 24,
       "track": "Like Crazy",
       "artist": "Jimin",
       "album": "FACE",
@@ -32,11 +32,25 @@
       "link": "https://www.deezer.com/track/2203061907"
     },
     {
+      "country": "Chile",
+      "rank": 75,
+      "movement": "RE",
+      "peakRank": 75,
+      "appearances": 1,
+      "track": "Who",
+      "artist": "Jimin",
+      "album": "MUSE",
+      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
+      "deezerId": 2893833601,
+      "playlistId": "1279119121",
+      "link": "https://www.deezer.com/track/2893833601"
+    },
+    {
       "country": "Japan",
-      "rank": 24,
-      "movement": "+1",
+      "rank": 84,
+      "movement": "-60",
       "peakRank": 1,
-      "appearances": 84,
+      "appearances": 85,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -44,20 +58,6 @@
       "deezerId": 2892682582,
       "playlistId": "1362508955",
       "link": "https://www.deezer.com/track/2892682582"
-    },
-    {
-      "country": "Singapore",
-      "rank": 44,
-      "movement": "+8",
-      "peakRank": 3,
-      "appearances": 3,
-      "track": "Who",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-      "deezerId": 2893833601,
-      "playlistId": "1313620765",
-      "link": "https://www.deezer.com/track/2893833601"
     }
   ]
 }
