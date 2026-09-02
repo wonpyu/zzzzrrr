@@ -1,42 +1,14 @@
 {
   "success": true,
-  "updatedAt": "2026-08-31",
+  "updatedAt": "2026-09-01",
   "countries": 70,
   "songs": [
     {
       "country": "Argentina",
-      "rank": 2,
-      "movement": "+6",
-      "peakRank": 1,
-      "appearances": 36,
-      "track": "Who",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-      "deezerId": 2893833601,
-      "playlistId": "1279119721",
-      "link": "https://www.deezer.com/track/2893833601"
-    },
-    {
-      "country": "Japan",
-      "rank": 4,
-      "movement": "+7",
-      "peakRank": 4,
+      "rank": 33,
+      "movement": "+61",
+      "peakRank": 33,
       "appearances": 2,
-      "track": "Who",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/15755e94c94456c6a693768cc2ae30c3/250x250-000000-80-0-0.jpg",
-      "deezerId": 2892682582,
-      "playlistId": "1362508955",
-      "link": "https://www.deezer.com/track/2892682582"
-    },
-    {
-      "country": "Argentina",
-      "rank": 94,
-      "movement": "RE",
-      "peakRank": 94,
-      "appearances": 1,
       "track": "Promise",
       "artist": "Jimin",
       "album": "Promise",
@@ -44,6 +16,20 @@
       "deezerId": 2174443177,
       "playlistId": "1279119721",
       "link": "https://www.deezer.com/track/2174443177"
+    },
+    {
+      "country": "Argentina",
+      "rank": 75,
+      "movement": "-73",
+      "peakRank": 1,
+      "appearances": 37,
+      "track": "Who",
+      "artist": "Jimin",
+      "album": "MUSE",
+      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
+      "deezerId": 2893833601,
+      "playlistId": "1279119721",
+      "link": "https://www.deezer.com/track/2893833601"
     }
   ]
 }
