@@ -1,28 +1,28 @@
 {
   "success": true,
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-09-05",
   "countries": 70,
   "songs": [
     {
-      "country": "Japan",
-      "rank": 16,
+      "country": "Singapore",
+      "rank": 23,
       "movement": "RE",
-      "peakRank": 16,
+      "peakRank": 23,
       "appearances": 1,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/15755e94c94456c6a693768cc2ae30c3/250x250-000000-80-0-0.jpg",
-      "deezerId": 2892682582,
-      "playlistId": "1362508955",
-      "link": "https://www.deezer.com/track/2892682582"
+      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
+      "deezerId": 2893833601,
+      "playlistId": "1313620765",
+      "link": "https://www.deezer.com/track/2893833601"
     },
     {
       "country": "Argentina",
-      "rank": 30,
-      "movement": "+2",
+      "rank": 55,
+      "movement": "-25",
       "peakRank": 30,
-      "appearances": 5,
+      "appearances": 6,
       "track": "Promise",
       "artist": "Jimin",
       "album": "Promise",
@@ -30,6 +30,20 @@
       "deezerId": 2174443177,
       "playlistId": "1279119721",
       "link": "https://www.deezer.com/track/2174443177"
+    },
+    {
+      "country": "Japan",
+      "rank": 63,
+      "movement": "-47",
+      "peakRank": 16,
+      "appearances": 2,
+      "track": "Who",
+      "artist": "Jimin",
+      "album": "MUSE",
+      "image": "https://cdn-images.dzcdn.net/images/cover/15755e94c94456c6a693768cc2ae30c3/250x250-000000-80-0-0.jpg",
+      "deezerId": 2892682582,
+      "playlistId": "1362508955",
+      "link": "https://www.deezer.com/track/2892682582"
     }
   ]
 }
