@@ -1,14 +1,14 @@
 {
   "success": true,
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-17",
   "countries": 70,
   "songs": [
     {
       "country": "Japan",
-      "rank": 1,
-      "movement": "+38",
+      "rank": 6,
+      "movement": "-5",
       "peakRank": 1,
-      "appearances": 3,
+      "appearances": 4,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -19,10 +19,10 @@
     },
     {
       "country": "Argentina",
-      "rank": 32,
-      "movement": "-1",
+      "rank": 48,
+      "movement": "-16",
       "peakRank": 31,
-      "appearances": 3,
+      "appearances": 4,
       "track": "Promise",
       "artist": "Jimin",
       "album": "Promise",
@@ -30,48 +30,6 @@
       "deezerId": 2174443177,
       "playlistId": "1279119721",
       "link": "https://www.deezer.com/track/2174443177"
-    },
-    {
-      "country": "Singapore",
-      "rank": 53,
-      "movement": "RE",
-      "peakRank": 53,
-      "appearances": 1,
-      "track": "Who",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-      "deezerId": 2893833601,
-      "playlistId": "1313620765",
-      "link": "https://www.deezer.com/track/2893833601"
-    },
-    {
-      "country": "Philippines",
-      "rank": 79,
-      "movement": "RE",
-      "peakRank": 79,
-      "appearances": 1,
-      "track": "Who",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-      "deezerId": 2893833601,
-      "playlistId": "1362518895",
-      "link": "https://www.deezer.com/track/2893833601"
-    },
-    {
-      "country": "Japan",
-      "rank": 96,
-      "movement": "RE",
-      "peakRank": 96,
-      "appearances": 1,
-      "track": "Set Me Free Pt.2",
-      "artist": "Jimin",
-      "album": "FACE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/0d86d8f7a357c3c0f9b94b8fd3fde13c/250x250-000000-80-0-0.jpg",
-      "deezerId": 2199591697,
-      "playlistId": "1362508955",
-      "link": "https://www.deezer.com/track/2199591697"
     }
   ]
 }
