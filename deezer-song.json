@@ -1,56 +1,42 @@
 {
   "success": true,
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-09-24",
   "countries": 70,
   "songs": [
     {
       "country": "Argentina",
-      "rank": 1,
-      "movement": "=",
+      "rank": 3,
+      "movement": "-2",
       "peakRank": 1,
-      "appearances": 5,
+      "appearances": 6,
       "track": "Like Crazy (English Version)",
-      "artist": "Jimin",
-      "album": "Like Crazy (Remixes)",
-      "image": "https://cdn-images.dzcdn.net/images/cover/71385081c849a7f70f61889e0decd83e/250x250-000000-80-0-0.jpg",
-      "deezerId": 2206237667,
-      "playlistId": "1279119721",
-      "link": "https://www.deezer.com/track/2206237667"
-    },
-    {
-      "country": "Hungary",
-      "rank": 44,
-      "movement": "RE",
-      "peakRank": 44,
-      "appearances": 1,
-      "track": "Like Crazy",
       "artist": "Jimin",
       "album": "FACE",
       "image": "https://cdn-images.dzcdn.net/images/cover/b9b40708dc92c1116ceaa1efa7d1c688/250x250-000000-80-0-0.jpg",
-      "deezerId": 2203061907,
-      "playlistId": "1362506695",
-      "link": "https://www.deezer.com/track/2203061907"
+      "deezerId": 2203061937,
+      "playlistId": "1279119721",
+      "link": "https://www.deezer.com/track/2203061937"
     },
     {
-      "country": "Israel",
-      "rank": 58,
-      "movement": "RE",
-      "peakRank": 58,
+      "country": "Peru",
+      "rank": 3,
+      "movement": "NE",
+      "peakRank": 3,
       "appearances": 1,
-      "track": "Gym Song",
-      "artist": "Jimin Moon",
-      "album": "Gym Song",
-      "image": "https://cdn-images.dzcdn.net/images/cover/64b2c536f25c45a3a41d2cf7d0049b51/250x250-000000-80-0-0.jpg",
-      "deezerId": 4209707812,
-      "playlistId": "1362507345",
-      "link": "https://www.deezer.com/track/4209707812"
+      "track": "Who",
+      "artist": "Jimin",
+      "album": "MUSE",
+      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
+      "deezerId": 2893833601,
+      "playlistId": "1362518525",
+      "link": "https://www.deezer.com/track/2893833601"
     },
     {
       "country": "Argentina",
-      "rank": 70,
-      "movement": "-32",
+      "rank": 53,
+      "movement": "+17",
       "peakRank": 31,
-      "appearances": 10,
+      "appearances": 11,
       "track": "Promise",
       "artist": "Jimin",
       "album": "Promise",
@@ -58,20 +44,6 @@
       "deezerId": 2174443177,
       "playlistId": "1279119721",
       "link": "https://www.deezer.com/track/2174443177"
-    },
-    {
-      "country": "Japan",
-      "rank": 80,
-      "movement": "-16",
-      "peakRank": 1,
-      "appearances": 10,
-      "track": "Who",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/15755e94c94456c6a693768cc2ae30c3/250x250-000000-80-0-0.jpg",
-      "deezerId": 2892682582,
-      "playlistId": "1362508955",
-      "link": "https://www.deezer.com/track/2892682582"
     }
   ]
 }
