@@ -1,14 +1,14 @@
 {
   "success": true,
-  "updatedAt": "2026-10-01",
+  "updatedAt": "2026-10-02",
   "countries": 70,
   "songs": [
     {
       "country": "Japan",
-      "rank": 38,
-      "movement": "-30",
+      "rank": 52,
+      "movement": "-14",
       "peakRank": 8,
-      "appearances": 2,
+      "appearances": 3,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -19,10 +19,10 @@
     },
     {
       "country": "Argentina",
-      "rank": 52,
-      "movement": "-8",
+      "rank": 63,
+      "movement": "-11",
       "peakRank": 44,
-      "appearances": 4,
+      "appearances": 5,
       "track": "Promise",
       "artist": "Jimin",
       "album": "Promise",
