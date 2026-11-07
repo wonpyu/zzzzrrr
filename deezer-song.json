@@ -1,14 +1,14 @@
 {
   "success": true,
-  "updatedAt": "2026-11-06",
+  "updatedAt": "2026-11-07",
   "countries": 70,
   "songs": [
     {
       "country": "Argentina",
-      "rank": 3,
-      "movement": "=",
+      "rank": 5,
+      "movement": "-2",
       "peakRank": 1,
-      "appearances": 16,
+      "appearances": 17,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -18,25 +18,11 @@
       "link": "https://www.deezer.com/track/2893833601"
     },
     {
-      "country": "Argentina",
-      "rank": 46,
-      "movement": "+43",
-      "peakRank": 46,
-      "appearances": 2,
-      "track": "Be Mine",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-      "deezerId": 2893833591,
-      "playlistId": "1279119721",
-      "link": "https://www.deezer.com/track/2893833591"
-    },
-    {
       "country": "Japan",
-      "rank": 64,
-      "movement": "RE",
-      "peakRank": 64,
-      "appearances": 1,
+      "rank": 12,
+      "movement": "+52",
+      "peakRank": 12,
+      "appearances": 2,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -47,10 +33,10 @@
     },
     {
       "country": "Turkey",
-      "rank": 65,
-      "movement": "NE",
-      "peakRank": 65,
-      "appearances": 1,
+      "rank": 31,
+      "movement": "+34",
+      "peakRank": 31,
+      "appearances": 2,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -60,18 +46,18 @@
       "link": "https://www.deezer.com/track/2893833601"
     },
     {
-      "country": "Chile",
-      "rank": 80,
-      "movement": "RE",
-      "peakRank": 80,
-      "appearances": 1,
-      "track": "Who",
+      "country": "Argentina",
+      "rank": 98,
+      "movement": "-52",
+      "peakRank": 46,
+      "appearances": 3,
+      "track": "Be Mine",
       "artist": "Jimin",
       "album": "MUSE",
       "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
-      "deezerId": 2893833601,
-      "playlistId": "1279119121",
-      "link": "https://www.deezer.com/track/2893833601"
+      "deezerId": 2893833591,
+      "playlistId": "1279119721",
+      "link": "https://www.deezer.com/track/2893833591"
     }
   ]
 }
