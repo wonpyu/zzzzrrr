@@ -1,14 +1,28 @@
 {
   "success": true,
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "countries": 70,
   "songs": [
     {
-      "country": "Japan",
-      "rank": 44,
+      "country": "Argentina",
+      "rank": 2,
       "movement": "RE",
-      "peakRank": 44,
+      "peakRank": 2,
       "appearances": 1,
+      "track": "Who",
+      "artist": "Jimin",
+      "album": "MUSE",
+      "image": "https://cdn-images.dzcdn.net/images/cover/7c653cf9471ae173c46a704d7433bd68/250x250-000000-80-0-0.jpg",
+      "deezerId": 2893833601,
+      "playlistId": "1279119721",
+      "link": "https://www.deezer.com/track/2893833601"
+    },
+    {
+      "country": "Japan",
+      "rank": 23,
+      "movement": "+21",
+      "peakRank": 23,
+      "appearances": 2,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -19,10 +33,10 @@
     },
     {
       "country": "Argentina",
-      "rank": 68,
-      "movement": "-13",
+      "rank": 41,
+      "movement": "+27",
       "peakRank": 41,
-      "appearances": 3,
+      "appearances": 4,
       "track": "Be Mine",
       "artist": "Jimin",
       "album": "MUSE",
@@ -30,6 +44,20 @@
       "deezerId": 2893833591,
       "playlistId": "1279119721",
       "link": "https://www.deezer.com/track/2893833591"
+    },
+    {
+      "country": "Egypt",
+      "rank": 47,
+      "movement": "RE",
+      "peakRank": 47,
+      "appearances": 1,
+      "track": "Set Me Free Pt.2",
+      "artist": "Jimin",
+      "album": "FACE",
+      "image": "https://cdn-images.dzcdn.net/images/cover/b9b40708dc92c1116ceaa1efa7d1c688/250x250-000000-80-0-0.jpg",
+      "deezerId": 2203061927,
+      "playlistId": "1362501615",
+      "link": "https://www.deezer.com/track/2203061927"
     }
   ]
 }
