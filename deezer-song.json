@@ -1,14 +1,14 @@
 {
   "success": true,
-  "updatedAt": "2026-11-27",
+  "updatedAt": "2026-11-28",
   "countries": 70,
   "songs": [
     {
       "country": "Argentina",
-      "rank": 12,
-      "movement": "RE",
+      "rank": 14,
+      "movement": "-2",
       "peakRank": 12,
-      "appearances": 1,
+      "appearances": 2,
       "track": "Who",
       "artist": "Jimin",
       "album": "MUSE",
@@ -18,25 +18,11 @@
       "link": "https://www.deezer.com/track/2893833601"
     },
     {
-      "country": "Japan",
-      "rank": 89,
-      "movement": "RE",
-      "peakRank": 89,
-      "appearances": 1,
-      "track": "Who",
-      "artist": "Jimin",
-      "album": "MUSE",
-      "image": "https://cdn-images.dzcdn.net/images/cover/15755e94c94456c6a693768cc2ae30c3/250x250-000000-80-0-0.jpg",
-      "deezerId": 2892682582,
-      "playlistId": "1362508955",
-      "link": "https://www.deezer.com/track/2892682582"
-    },
-    {
       "country": "Argentina",
-      "rank": 97,
-      "movement": "RE",
-      "peakRank": 97,
-      "appearances": 1,
+      "rank": 30,
+      "movement": "+67",
+      "peakRank": 30,
+      "appearances": 2,
       "track": "Be Mine",
       "artist": "Jimin",
       "album": "MUSE",
